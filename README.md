@@ -13,3 +13,5 @@ Extensão Chrome que analisa conteúdo visível (DOM e OCR) e compara/armazenha 
 - Para OCR, coloque os binários do Tesseract (JS/WASM) em `ocr/` (arquivos **tesseract.min.js**, **worker.min.js**, **tesseract.wasm**). Não utilize CDN em MV3.
 - `tabs.captureVisibleTab()` requer `activeTab` ou `<all_urls>` e deve ser chamado fora do content script.
 - Service worker não tem acesso ao DOM e não suporta `localStorage`; use `chrome.storage` ou IndexedDB.
+
+Estou fazendo uma alteração ------------->
